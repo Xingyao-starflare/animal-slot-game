@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>21世纪最强美男子 - 巨星老虎机</title>
+    <title>21世纪最强美男子</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="game-container">
         <h1>21世纪最强美男子</h1>
-        <p class="tip">纯娱乐模拟 · 高清真人帅哥 · 音效+粒子+大展宏图BGM</p>
         
         <div class="balance">金币: <span id="coins">10000</span></div>
+        
+        <div class="slot-machine">
+            <div class="reels" id="reels"></div>
+        </div>
+
         <button id="spin-button">开始转动！</button>
         <div id="win-message"></div>
     </div>
 
-    <audio id="bgm" loop>
-        <source src="https://music.163.com/song/media/outer/url?id=4096497.mp3" type="audio/mpeg">
+    <!-- 大展宏图BGM（国内直链，秒播） -->
+    <audio id="bgm" loop autoplay>
+        <source src="https://freetyst.nf.migu.cn/public/product9th/product46/2022/07/0511/2019%25E5%25B9%25B406%25E6%259C%258823%25E6%2597%25A520%25E7%2582%25B930%25E5%2588%2586%25E5%2586%2585%25E5%25AE%25B9%25E5%2587%2586%25E5%25A4%2587/%25E6%25A0%2587%25E6%25B8%2585%25E9%25AB%2598%25E9%2580%2589%25E9%2587%258F/%25E6%25AD%258C%25E6%259B%25B2/%25E5%25A4%25A7%25E5%25B1%2595%25E5%25AE%258F%25E5%259B%25BE-%25E6%259D%258E%25E5%2586%25B6%25E6%259D%25B0.mp3" type="audio/mpeg">
     </audio>
 
     <script src="script.js"></script>
