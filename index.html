@@ -3,41 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>动物爆爆乐 - 完整升级版</title>
+    <title>21世纪最强美男子 - 巨星老虎机</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="game-container">
-        <h1>🦁 动物爆爆乐 🐘</h1>
-        <p class="tip">纯娱乐模拟 · 卡通Emoji动物 · 音效+动画+排行榜 · 手机电脑完美</p>
+        <h1>21世纪最强美男子</h1>
+        <p class="tip">纯娱乐模拟 · 高清真人帅哥 · 音效+粒子+大展宏图BGM</p>
         
-        <div class="controls">
-            <div class="balance">金币: <span id="coins">10000</span></div>
-            <select id="bet-level">
-                <option value="20">下注20</option>
-                <option value="50">下注50</option>
-                <option value="100">下注100</option>
-            </select>
-            <button id="auto-spin">自动10次</button>
-        </div>
-
-        <div class="slot-machine">
-            <div class="reels" id="reels"></div>
-        </div>
-
-        <div class="buttons">
-            <button id="spin-button">🎰 开始转动！</button>
-        </div>
-        
+        <div class="balance">金币: <span id="coins">10000</span></div>
+        <button id="spin-button">开始转动！</button>
         <div id="win-message"></div>
-        
-        <div class="leaderboard">
-            <h3>🏆 排行榜 Top5</h3>
-            <div id="leaderboard-list"></div>
-            <input id="player-name" placeholder="你的名字" maxlength="10">
-            <button id="save-score">保存成绩</button>
-        </div>
     </div>
+
+    <audio id="bgm" loop>
+        <source src="https://music.163.com/song/media/outer/url?id=4096497.mp3" type="audio/mpeg">
+    </audio>
 
     <script src="script.js"></script>
 </body>
